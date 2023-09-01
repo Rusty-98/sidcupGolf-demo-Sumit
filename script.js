@@ -268,11 +268,11 @@ function deskAnim(){
     })
     gsap.from("#page4 h1",{
         y:50,
+        opacity:0,
         scrollTrigger:{
             trigger:"#page4 h1",
             scroller:"body",
             start:"top 80%",
-            // marker:true,
             end:"top 70%",
             scrub:2,
         }
@@ -361,11 +361,11 @@ function mobileAnim(){
     })
     gsap.from("#page4 h1",{
         y:22,
+        opacity:0,
         scrollTrigger:{
             trigger:"#page4 h1",
             scroller:"body",
             start:"top 80%",
-            marker:true,
             end:"top 70%",
             scrub:2,
         }
